@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* TAGS */
+
+h6{
+
+  color: var(--Gray-600, #5E6470);
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21.367px;  
+}
+
+
+h6 input{
+
+  color: var(--Gray-600, #5E6470);
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21.367px;    
+}
+
+h6 .form-control{
+  color: var(--Gray-600, #5E6470);
+  font-family: Poppins;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21.367px;    
+}
+
+
+/* TAGS */
+
+/* NAVBAR */
+
+.navbarleft{
+   margin-left: 26%; 
+    
+}
+.navbar-nav{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+
+/* ENDING NAVBAR */
+
+
+
+/* FORM */
+
+
+.formborder{
+  /* border:  solid rgb(53, 47, 47); */
+  background-color: white;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.address{
+  padding-right: 5%;
+}
+
+/* table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+*/
+
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+/* 
+@media (max-width: 767px) {
+  th, td {
+      display: block;
+      width: 100%;
+  }
+
+  th, td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+
+  th, td:last-child::before {
+      content: none;
+  }
+} */
+
+.verticalline{
+  background: rgba(153, 153, 153, 0.50);
+  width: 95%;
+  height: 4px;
+}
+
+
+.googlepay h6{
+  color: var(--Gray-900, #1A1C21);
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  /* line-height: 14px;  */
+}
+
+
+
+.termsandconditions{
+  border: 0.397px solid rgba(33, 33, 33, 0.40);
+  background-color: #EFF7FE;
+  color: #000;
+  height: 30%;
+  width: 20%;
+}
+
+
+@media (max-width: 767px) {
+  /* Styles for small devices (up to 767px) */
+  .googlepay {
+      padding: 10px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles for medium devices (768px to 991px) */
+  .googlepay {
+      padding: 15px; /* Adjust padding for medium screens */
+  }
+}
+/* FORM */
+
+.viewinvoicetable{
+  justify-content: end;
+}
+
+.viewinvoicetable th {
+  text-align: center;
+  border: none;
+}
+
+.viewinvoicetable td {
+  text-align: center;
+}
+
+
+
+
+
+
+.add_gst{
+
+  justify-content: center;
+}
+
+.update-button{
+ background-color: rgb(58, 58, 187);
+ color: white;
+ border-radius: 3px;
+}
+
+.delete-button{
+  background-color: rgb(141, 125, 125);
+  color: white;
+  border-radius: 3px;
+
+}
+
+.update-button-cus{
+    background-color: aliceblue;
+    color: white;
+    border-radius: 3px;
+    border: none;
+   }
+   
+   .delete-button-cus{
+     background-color:  aliceblue;
+     color: white;
+     border-radius: 3px;
+     border: none;
+   }
+
+.view-button{
+  background-color: rgb(28, 160, 213);
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.history-button{
+  background-color: rgb(28, 213, 99);
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.edit-button{
+  background-color: rgb(10, 213, 24);
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+
+@media (max-width: 375px) {
+  .table-responsive {
+      overflow-x: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  /* table {
+      overflow-x: auto;
+      display: block;
+  } */
+
+  /* th, td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+  } */
+
+  /* th, td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+  } */
+
+  th, td:last-child::before {
+      content: none;
+  }
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 182px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 20px;
+  /* text-align: center; */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12 px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav li:hover .dropdown-content {
+    display: block;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0;
+    /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 600;
+}
+
+.nav-links {
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.active-link {
+    background-color: blue;
+    color: white;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+
+.nav-item {
+  padding-top: 20px;
+}
+/* 
+form {
+    background-color: white;
+    border-radius: 50px;
+}
+
+.form-input {
+    border-radius: 20px;
+    border: none;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.thead {
+    background-color: aliceblue;
+    border: 1px solid black;
+}
+
+th {
+    border: none;
+    padding: 4px;
+    /* Adjust padding as needed 
+    text-align: center;
+}
+
+.table-responsive {
+    border-radius: 10px;
+    border: 1px solid black;
+} */
+
+
+@media (min-width:992px) and (max-width:1300px){
+  
+
+.mango{
+margin-left: 50px;
+}
+}
+
+.active-link {
+  background-color: blue;
+  color: white !important;
+}
+
+
+.bg_color_icon{
+  background-color: #e298aa;
+}
